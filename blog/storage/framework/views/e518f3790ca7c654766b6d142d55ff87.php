@@ -12,8 +12,8 @@
             <?php $__currentLoopData = $posts; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $post): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                 <div class='post'>
                     <h2 class='title'>
-                        <a href="/posts/<?php echo e($post->id); ?>"><?php echo e($post->title); ?></a>
-                    </h2>
+                       <a href="/posts/<?php echo e($post->id); ?>"><?php echo e($post->title); ?></a>
+                    </h2
                     <p class='body'><?php echo e($post->body); ?></p>
                 </div>
             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
